@@ -1,5 +1,5 @@
 export default {
-  baseUrl: 'https://api.covid19api.com/',
-  getCountries: 'countries',
-  getCountrieDetails: 'country/:slug/status/confirmed',
+  baseUrl: 'https://pokeapi.co/api/v2/',
+  getPokemons: 'pokemon',
+  getTypes: 'type',
 };

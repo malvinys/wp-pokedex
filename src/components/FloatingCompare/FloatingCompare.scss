@@ -3,27 +3,31 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-}
 
-.floating-compare-top {
-    display: flex;
-    justify-content: center;
-    border: 1px solid grey;
-    align-items: center;
-    padding: 4px;
-    background: #ffffff;
-}
+    &-top {
+        display: flex;
+        justify-content: center;
+        border: 1px solid grey;
+        align-items: center;
+        padding: 4px;
+        background: #ffffff;
 
-.floating-compare-top p {
-    margin: 0;
-}
+        & p {
+            margin: 0;
+        }
 
-.floating-compare-top-vs {
-    margin: 0 8px !important;
-    font-weight: bold;
-}
+        &-vs {
+            margin: 0 8px !important;
+            font-weight: bold;
+        }
+    }
 
-.floating-compare-bottom-submit {
-    width: 100%;
-    border-radius: 0;
+    &-bottom-submit, &-bottom-close {
+        width: 50%;
+        border-radius: 0;
+    }
+
+    &-bottom-submit:disabled {
+        cursor: not-allowed;
+    }
 }

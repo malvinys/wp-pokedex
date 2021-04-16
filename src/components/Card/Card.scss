@@ -5,26 +5,37 @@
     display: flex;
     flex-direction: column;
     height: 400px;
+    min-width: 300px;
     max-width: 400px;
     margin-bottom: 24px;
-}
 
-.card-item:hover {
-    background: #e4e4e4;
-    cursor: pointer;
-}
+    &:hover {
+        background: #e4e4e4;
+        cursor: pointer;
+    }
 
-.card-item-type {
-    display: flex;
-}
+    &-type {
+        display: flex;
 
-.card-item-type p {
-    padding: 4px;
-    border: 1px solid grey;
-    border-radius: 4px;
-    margin-right: 4px;
-}
+        & p {
+            padding: 4px 8px;
+            border: 1px solid grey;
+            border-radius: 4px;
+            margin-right: 8px;
+        }
+    }
 
-.card-item-btn-detail {
-    margin-bottom: 4px;
+    &-status {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    &-btn-detail {
+        margin-bottom: 4px;
+    }
+
+    &-btn-compare:disabled {
+        cursor: not-allowed;
+    }
 }
