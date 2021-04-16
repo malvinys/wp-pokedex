@@ -1,0 +1,29 @@
+.floating-compare {
+    min-width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.floating-compare-top {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    align-items: center;
+    padding: 4px;
+    background: #ffffff;
+}
+
+.floating-compare-top p {
+    margin: 0;
+}
+
+.floating-compare-top-vs {
+    margin: 0 8px !important;
+    font-weight: bold;
+}
+
+.floating-compare-bottom-submit {
+    width: 100%;
+    border-radius: 0;
+}
