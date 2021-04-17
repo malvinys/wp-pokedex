@@ -31,25 +31,25 @@ const Card = ({
         </div>
         {hp && (
         <p>
-          HP:
+          HP:&nbsp;
           {hp}
         </p>
         )}
         {attack && (
         <p>
-          Attack:
+          Attack:&nbsp;
           {attack}
         </p>
         )}
         {defense && (
         <p>
-          Defense:
+          Defense:&nbsp;
           {defense}
         </p>
         )}
         {speed && (
         <p>
-          Speed:
+          Speed:&nbsp;
           {speed}
         </p>
         )}
